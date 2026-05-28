@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spicy Mafia – Street Food, Jagriti Vihar, Meerut</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Syne:wght@400;700;800&family=Space+Mono:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ── NOTIFICATION TOAST ── -->
+  <div class="toast" id="toast">
+    <span class="toast-icon">🔥</span>
+    <span class="toast-msg" id="toastMsg">Feedback submitted!</span>
+  </div>
+
+  <!-- ── CURSOR FLAME ── -->
+  <div class="cursor-flame" id="cursorFlame">🔥</div>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <a href="#hero" class="nav-logo">
+      <span class="logo-text">SPICY</span><span class="logo-accent">MAFIA</span>
+    </a>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#menu" class="nav-link">Menu</a></li>
+      <li><a href="#gallery" class="nav-link">Gallery</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#feedback" class="nav-link">Feedback</a></li>
+
+      <li>
+        <a href="https://www.instagram.com/spicymafia2026" target="_blank" class="nav-insta">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+        </a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="hero">
+    <div class="hero-noise"></div>
+    <div class="hero-bg-text">SPICY</div>
+    <div class="hero-content">
+      <p class="hero-tag">Jagriti Vihar · Meerut</p>
+      <h1 class="hero-title">
+        <span class="title-line" data-text="SPICY">SPICY</span>
+        <span class="title-line accent" data-text="MAFIA">MAFIA</span>
+      </h1>
+      <p class="hero-sub">Street food that hits different. Every. Single. Bite.</p>
+      <div class="hero-cta">
+        <a href="#menu" class="btn btn-primary">See Our Menu</a>
+        <a href="#gallery" class="btn btn-ghost">View Gallery</a>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>SCROLL</span>
+      <div class="scroll-line"></div>
+    </div>
+    <div class="hero-img-wrap">
+      <img src="Images/Image 7.jpeg" alt="Spicy street food" class="hero-img" />
+    </div>
+  </section>
+
+  <!-- ── TICKER ── -->
+  <div class="ticker-wrap">
+    <div class="ticker">
+      <span>🔥 SPICY MAFIA</span>
+      <span>• STREET FOOD •</span>
+      <span>🌶️ JAGRITI VIHAR</span>
+      <span>• MEERUT •</span>
+      <span>🔥 FOLLOW @spicymafia2026</span>
+      <span>• DESI FLAVOURS •</span>
+      <span>• FRESH DAILY •</span>
+      <!-- duplicate for seamless loop -->
+      <span>🔥 SPICY MAFIA</span>
+      <span>• STREET FOOD •</span>
+      <span>🌶️ JAGRITI VIHAR</span>
+      <span>• MEERUT •</span>
+      <span>🔥 FOLLOW @spicymafia2026</span>
+      <span>• DESI FLAVOURS •</span>
+      <span>• FRESH DAILY •</span>
+    </div>
+  </div>
+
+  <!-- ── MENU ── -->
+  <section class="section menu-section" id="menu">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">OUR SPECIALITIES</span>
+        <h2 class="section-title">The <em>Menu</em></h2>
+      </div>
+      <div class="menu-grid" id="menuGrid">
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 1.jpeg" alt="Chowmien" loading="lazy" />
+            <!-- <span class="spice-badge">🌶️🌶️🌶️</span> -->
+             <span class="featured-badge">⭐ BESTSELLER</span>
+          </div>
+          <div class="card-body">
+            <h3>Chowmien</h3>
+            <p>Sizzling noodles tossed with crunchy veggies & bold spicy sauces, packed with irresistible street-style flavour.</p>
+            <span class="price">₹50/90</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="Images/Image 2.jpeg" alt="Loki Momos" loading="lazy" />
+            <span class="spice-badge">🌶️🌶️</span>
+          </div>
+          <div class="card-body">
+            <h3>Loki Momos</h3>
+            <p>Steamed dumplings stuffed with juicy fillings, served hot with spicy chutney & smoky street-style flavours.
+</p>
+            <span class="price">₹40/80</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="Images/Image 3.jpeg" alt="Paneer Momos" loading="lazy" />
+            <span class="spice-badge">🌶️🌶️</span>
+          </div>
+          <div class="card-body">
+            <h3>Paneer Momos</h3>
+            <p>Soft dumplings filled with creamy paneer & spices, steamed to perfection and served with fiery chutney.
+</p>
+            <span class="price">₹60/120</span>
+          </div>
+        </div>
+
+        <div class="menu-card featured" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 4.jpeg" alt="Rose Momos" loading="lazy" />
+            <!-- <span class="spice-badge">🌶️🌶️🌶️</span> -->
+            <!-- <span class="featured-badge">⭐ BESTSELLER</span> -->
+          </div>
+          <div class="card-body">
+            <h3>Rose Momos</h3>
+            <p>Beautiful rose-shaped momos packed with delicious fillings, bursting with rich flavours in every bite.
+</p>
+            <span class="price">₹60/120</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="Images/Image 8.jpeg" alt="Burger" loading="lazy" />
+            <!-- <span class="spice-badge">🌶️</span> -->
+          </div>
+          <div class="card-body">
+            <h3>Burger</h3>
+            <p>Juicy burger loaded with crispy veggies, cheesy layers & flavour-packed sauces in every bite.</p>
+            <span class="price">₹50</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 9.jpeg" alt="Marinated Red Sause Momo" loading="lazy" />
+            <span class="spice-badge">🌶️🌶️🌶️</span>
+          </div>
+          <div class="card-body">
+            <h3>Marinated Red Sause Momos</h3>
+            <p>Juicy momos marinated in rich red sauce, tossed with bold spices for a fiery flavour explosion.
+</p>
+            <span class="price">₹100</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 10.jpeg" alt="Marinated White Sause Momo" loading="lazy" />
+            <span class="spice-badge">🌶️🌶️</span>
+          </div>
+          <div class="card-body">
+            <h3>Marinated White Sause Momos</h3>
+            <p>Creamy white sauce-coated momos infused with rich spices, delivering a smooth and savoury flavour burst.
+</p>
+            <span class="price">₹100</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 11.jpeg" alt="Soya Momos" loading="lazy" />
+          </div>
+          <div class="card-body">
+            <h3>Soya Momos</h3>
+            <p>Soft momos stuffed with spicy soya filling, packed with smoky flavours and served steaming hot.
+</p>
+            <span class="price">₹40/80</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 12.jpeg" alt="Veg Momos" loading="lazy" />
+            <span class="spice-badge">🌿</span>
+          </div>
+          <div class="card-body">
+            <h3>Veg Momos</h3>
+            <p>Steamed momos filled with fresh veggies & aromatic spices, served hot with spicy chutney.
+</p>
+            <span class="price">₹40/80</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="Images/Image 13.jpeg" alt="Jhol Momos" loading="lazy" />
+            <span class="spice-badge">🌶️🌶️🌶️</span>
+          </div>
+          <div class="card-body">
+            <h3>Jhol Momos</h3>
+            <p>Soft, juicy momos dipped in spicy Nepali-style jhol gravy, bursting with bold and tangy flavours.
+</p>
+            <span class="price">₹50/90</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 14.jpeg" alt="Cheese Corn Momos" loading="lazy" />
+            <!-- <span class="spice-badge">🌿</span> -->
+          </div>
+          <div class="card-body">
+            <h3>Cheese Corn Momos</h3>
+            <p>Cheesy momos loaded with sweet corn & creamy flavours, melted to perfection in every bite.
+</p>
+            <span class="price">₹60/120</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="Images/Image 15.jpeg" alt="Cheese Burger" loading="lazy" />
+            <!-- <span class="spice-badge">🌿</span> -->
+          </div>
+          <div class="card-body">
+            <h3>Cheese Burger</h3>
+            <p>Juicy burger layered with melted cheese, crispy veggies & flavourful sauces for the ultimate cheesy bite.
+</p>
+            <span class="price">₹70</span>
+          </div>
+        </div>
+
+<div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 16.jpeg" alt="MultiGrain Momos" loading="lazy" />
+            <!-- <span class="spice-badge">🌿</span> -->
+          </div>
+          <div class="card-body">
+            <h3>MultiGrain Momos</h3>
+            <p>Spiced buttermilk with roasted cumin and fresh coriander.</p>
+            <span class="price">₹60/120</span>
+          </div>
+        </div>
+
+        <div class="menu-card" data-cat="menu">
+          <div class="card-img-wrap">
+            <img src="/Images/Image 17.jpeg" alt="Complimentary" loading="lazy" />
+            <!-- <span class="spice-badge">🌿</span> -->
+          </div>
+          <div class="card-body">
+            <h3>Complimentary Soup</h3>
+            <p>Warm and comforting complimentary soup served fresh to perfectly complete your delicious meal.
+</p>
+            <span class="price">Free</span>
+          </div>
+        </div>
+
+        
+   
+
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="section about-section" id="about">
+    <div class="container about-container">
+      <div class="about-img-col">
+        <div class="about-img-stack">
+          <img src="/Images/Image 5.png" alt="Food stall" class="about-img1" />
+          <img src="/Images/Image 6.png" alt="Spices" class="about-img2" />
+          <!-- <div class="about-stat-card">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Years on the street</span>
+          </div> -->
+        </div>
+      </div>
+      <div class="about-text-col">
+        <span class="section-tag">OUR STORY</span>
+        <h2 class="section-title">Born on the <em>Street.</em></h2>
+        <p class="about-p">Spicy Mafia didn't start in a kitchen — it started with a cart, a dream, and a recipe that stopped people mid-walk in Jagriti Vihar. Every dish we make carries the chaos, colour, and heat of Meerut's streets.</p>
+        <p class="about-p">We don't do mild. We don't do boring. We do real — fresh ingredients, bold spices, and portions that actually fill you up.</p>
+        <div class="about-badges">
+          <span class="badge">🌶️ Extra Spicy Available</span>
+          <span class="badge">🌱 Veg Options</span>
+          <span class="badge">📸 Follow @spicymafia2026</span>
+        </div>
+        <a href="https://www.instagram.com/spicymafia2026" target="_blank" class="btn btn-primary">Follow on Instagram</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── GALLERY ── -->
+  <section class="section gallery-section" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">FROM THE GRAM</span>
+        <h2 class="section-title">Visual <em>Feast</em></h2>
+        <p class="gallery-sub">Photos from our Instagram <strong>@spicymafia2026</strong></p>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item g-tall" data-index="0">
+          <img src="/Images/Image 1.jpeg" alt="Chowmein" loading="lazy" />
+          <div class="gallery-overlay"><span>Chowmein</span></div>
+        </div>
+        <div class="gallery-item" data-index="1">
+          <img src="/Images/Image 2.jpeg" alt="Loki Momos" loading="lazy" />
+          <div class="gallery-overlay"><span>Loki Momos</span></div>
+        </div>
+        <div class="gallery-item" data-index="2">
+          <img src="/Images/Image 3.jpeg" alt="Paneer Momos" loading="lazy" />
+          <div class="gallery-overlay"><span>Paneer Momos</span></div>
+        </div>
+        <div class="gallery-item g-wide" data-index="3">
+          <img src="Images/Image 18.jpeg" alt="Momos" loading="lazy" />
+          <div class="gallery-overlay"><span>Momos</span></div>
+        </div>
+        <div class="gallery-item" data-index="4">
+          <img src="/Images/Image 8.jpeg" alt="Burger" loading="lazy" />
+          <div class="gallery-overlay"><span>Burger</span></div>
+        </div>
+        <div class="gallery-item" data-index="5">
+          <img src="Images/Image 4.jpeg" alt="Rose Momos" loading="lazy" />
+          <div class="gallery-overlay"><span>Rose Momos</span></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox" id="lightbox">
+      <button class="lb-close" id="lbClose">✕</button>
+      <button class="lb-arrow lb-prev" id="lbPrev">‹</button>
+      <img src="" alt="" class="lb-img" id="lbImg" />
+      <button class="lb-arrow lb-next" id="lbNext">›</button>
+    </div>
+  </section>
+
+
+  <!-- ── FEEDBACK ── -->
+  <section class="section feedback-section" id="feedback">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">CUSTOMER LOVE</span>
+        <h2 class="section-title">Drop Your <em>Feedback</em></h2>
+      </div>
+
+      <div class="feedback-layout">
+        <!-- Existing reviews carousel -->
+        <div class="reviews-col">
+          <h3 class="reviews-title">What People Say</h3>
+          <div class="reviews-track" id="reviewsTrack">
+            <div class="review-card">
+              <div class="review-stars">⭐⭐⭐⭐⭐</div>
+              <p>"Best Momos Ever Tried yrr, Kasam se"</p>
+              <span class="reviewer">— Rahul S., Meerut</span>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">⭐⭐⭐⭐⭐</div>
+              <p>"Sab friends ko recommend kar diya. Jagriti Vihar ka best!"</p>
+              <span class="reviewer">— Priya M., Jagriti Vihar</span>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">⭐⭐⭐⭐</div>
+              <p>"Will Surely Visit again, best Chowmien ever"</p>
+              <span class="reviewer">— Arjun K., Meerut</span>
+            </div>
+            <div class="review-card">
+              <div class="review-stars">⭐⭐⭐⭐⭐</div>
+              <p>"Spicy Mafia nahi toh Meerut nahi 😂 Seriously,The momos are great"</p>
+              <span class="reviewer">— Neha G., Meerut</span>
+            </div>
+          </div>
+          <div class="review-dots" id="reviewDots"></div>
+        </div>
+
+        <!-- Feedback form -->
+        <div class="form-col">
+          <div class="feedback-form-card">
+            <h3>Share Your Experience</h3>
+            <div class="star-rating" id="starRating">
+              <span class="star" data-val="1">★</span>
+              <span class="star" data-val="2">★</span>
+              <span class="star" data-val="3">★</span>
+              <span class="star" data-val="4">★</span>
+              <span class="star" data-val="5">★</span>
+            </div>
+            <input type="text" id="fbName" placeholder="Your name" class="fb-input" maxlength="60" />
+            <textarea id="fbText" placeholder="Tell us about your experience..." class="fb-textarea" maxlength="300" rows="4"></textarea>
+            <div class="char-count"><span id="charCount">0</span>/300</div>
+            <button class="btn btn-primary btn-full" id="submitFeedback">Submit Feedback 🔥</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-text">SPICY</span><span class="logo-accent">MAFIA</span>
+        <p>Jagriti Vihar, Meerut, UP</p>
+      </div>
+      <div class="footer-links">
+        <a href="#menu">Menu</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About</a>
+        <a href="#feedback">Feedback</a>
+      </div>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/spicymafia2026" target="_blank" class="social-btn">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg>
+          @spicymafia2026
+        </a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>© 2026 Spicy Mafia. All rights reserved. Built with 🔥</p>
+      <p>Made with &#x2764; by a 14 year old Student</p>
+      <a href="https://github.com/code-with-swati06" style="color: rgba(255, 255, 255, 0.6,);">Click here to know more about the student</a>
+    </div>
+  </footer>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
